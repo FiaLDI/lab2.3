@@ -18,7 +18,7 @@ if __name__ == '__main__':
 
         countE = 0
         countO = 0
-        for j in range(len(word)):
+        for j, wordd in enumerate(words):
             if (word[j] == "e"):
                 countE += 1
             if (word[j] == "o"):
